@@ -8,9 +8,11 @@ const Navbar = ({ className }) => {
 
   return (
     <nav
-      className={`flex items-center justify-between px-8 py-4 bg-brand-primary ${className}`}
+      className={`flex items-center justify-between px-8 py-4 ${
+        isActive("/") ? "bg-transparent" : "bg-brand-primary"
+      } ${className}`}
     >
-      <img alt="ic-logo" src="/assets/ic-logo-white.png" className="w-28" />
+      <img alt="ic-logo" src="/assets/ic-logo-white.png" className="w-20" />
       <ul className="flex  text-white text-sm">
         <li>
           <Link
