@@ -34,7 +34,7 @@ function Home() {
       </section>
       <section className="relative py-24 px-5 flex flex-col items-center justify-center gap-y-8">
         <img
-          className="absolute -z-10"
+          className=" absolute -z-10"
           src="/assets/canon-tower-gray.png"
           alt="canon-tower-gray"
         />
