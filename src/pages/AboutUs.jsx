@@ -40,7 +40,7 @@ function AboutUs() {
         </div>
         <div className="w-full mx-auto">
           <img
-            className="w-full h-full object-cover"
+            className="w-4/5 mx-auto h-full object-cover"
             src="/assets/rangoon-structure-diagram.png"
             alt="canon-tower-gray"
           />
@@ -56,12 +56,14 @@ function AboutUs() {
         />
         <div className="w-4/5 mx-auto flex flex-col items-start gap-4">
           <h1 className="text-5xl text-white font-semibold">Ready to Invest</h1>
-          <button
-            type="button"
-            className="font-semibold bg-brand-secondary text-brand-primary rounded-full px-4 py-1"
+          <a
+            href="https://onboarding.ic.africa"
+            target="_blank"
+            rel="noreferrer"
+            className="font-semibold bg-brand-secondary text-brand-primary rounded-full px-4 py-1 hover:ring hover:ring-white transition-all ease-in-out flex items-center justify-center active:bg-brand-secondary/80"
           >
             Invest with Us
-          </button>
+          </a>
         </div>
       </section>
 

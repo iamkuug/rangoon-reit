@@ -3,7 +3,7 @@ import Container from "./container";
 
 export const Footer = () => {
   return (
-    <footer className="text-black py-10 px-5 h-[300px] flex items-center justify-center">
+    <footer className="text-black py-10 px-5 h-[400px] flex items-center justify-center bg-white">
       <Container className="flex items-start justify-between">
         <div>
           <img

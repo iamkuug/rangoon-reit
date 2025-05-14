@@ -2,7 +2,7 @@ import React from "react";
 import { HomeHero } from "../components/HomeHero";
 import Separator from "../components/Separator";
 import { Footer } from "../components/Footer";
-import Container from "../components/container";
+import { Container } from "../components/container";
 
 function Home() {
   return (
@@ -23,12 +23,12 @@ function Home() {
               stable currency -protected income distributions and long-term
               growth in the net asset value of properties.
             </p>
-            <button
-              type="button"
-              className="font-semibold bg-brand-secondary text-brand-primary rounded-full w-1/4 px-4 py-1"
+            <a
+              href="/about-us"
+              className="font-semibold bg-brand-secondary text-brand-primary rounded-full  px-4 py-1  hover:ring-1 hover:ring-white hover:ring-offset-1 active:bg-brand-secondary/80"
             >
-              Learn More
-            </button>
+              <span>Learn More</span>
+            </a>
           </div>
         </div>
       </section>

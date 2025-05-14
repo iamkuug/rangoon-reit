@@ -12,7 +12,9 @@ const Navbar = ({ className }) => {
         isActive("/") ? "bg-transparent" : "bg-brand-primary"
       } ${className}`}
     >
-      <img alt="ic-logo" src="/assets/ic-logo-white.png" className="w-20" />
+      <a href="/">
+        <img alt="ic-logo" src="/assets/ic-logo-white.png" className="w-20" />
+      </a>
       <ul className="flex  text-white text-sm">
         <li>
           <Link

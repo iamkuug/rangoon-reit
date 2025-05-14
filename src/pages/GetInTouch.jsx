@@ -39,7 +39,8 @@ function GetInTouch() {
           </div>
         </div>
       </section>
-      <section className="flex items-center justify-center py-10 px-5">
+      <section className="relative flex items-center justify-center py-10 px-5">
+        <img src="/assets/get-in-touch-bg.png" alt="" className="absolute -z-10"/>
         <div className="w-4/5 mx-auto flex flex-col items-start gap-4 ">
           <form onSubmit={handleSubmit} className="space-y-6 w-4/5">
             <div className="space-y-2 w-full">
