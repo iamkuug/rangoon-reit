@@ -2,7 +2,7 @@ import React from "react";
 import { HomeHero } from "../components/HomeHero";
 import Separator from "../components/Separator";
 import { Footer } from "../components/Footer";
-import { Container } from "../components/container";
+import { Container } from "../components/Container";
 
 function Home() {
   return (
